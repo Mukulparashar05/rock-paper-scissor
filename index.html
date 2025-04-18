@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>rockpaperscissors</title>
+
+<body style="background-color: #b8c4bb;" class="m-o p-o">
+  <div class=" text-4xl lg:text-6xl font-bold opacity-85 flex items-center justify-center my-3 uppercase ">Rock Paper Scissors </div>
+  <div class="choices flex items-center justify-center my-14  ">
+    <div id="rock" class="choice h-52 w-52 mx-5"><img src="rock.png" alt="rock" class="rounded-full transition transform hover:scale-110 cursor-pointer hover:border-black border hover:outline"></div>
+
+    <div id="paper" class="choice h-52 w-52 "><img src="paper.png" alt="paper" class="rounded-full transition transform hover:scale-110 cursor-pointer hover:border-black border hover:outline "></div>
+
+    <div id="scissor" class="choice h-52 w-52  mx-5"><img src="scissor.png" alt="scissor" class="rounded-full transition transform hover:scale-110 cursor-pointer hover:border-black border hover:outline"></div>
+  </div>
+  </div>
+  <div class="score_board flex items-center justify-center font-bold text-4xl">
+    <div class="score mx-8 uppercase" >
+      <p  id="user-score" class="mx-5">0</p>
+      <p>you</p>
+    </div>
+    <div class="score uppercase" >
+      <p  id="comp-score" class=" mx-9">0</p>
+      <p>comp</p>
+    </div>
+  </div>
+  <div class="message_container items-end justify-center font-bold text-3xl uppercase text-black flex " >
+    <p id="msg">play your move</p>
+  </div>
+
+
+  <script type="module" src="script.js"></script>
+</body>
+
+</html>
